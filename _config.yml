@@ -1,0 +1,7 @@
+site_name: 'tomjamesallen'
+site_url: 'tomjamesallen.co.uk'
+markdown: rdiscount
+rdiscount:
+    extensions: [smart]
+permalink: /articles/:title
+paginate: 3
