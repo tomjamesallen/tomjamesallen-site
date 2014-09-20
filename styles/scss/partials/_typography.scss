@@ -1,0 +1,57 @@
+$font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+html {
+  font-size: 20px;
+}
+/* Typography */
+body {
+  font-size: 100%;
+  
+  // Typography
+  font-family: $font-family;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 3rem;
+  display: block;
+  margin: 0 0 1rem 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 0 0 1.5rem 0;
+}
+
+h3 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-style: italic;
+  margin: 0 0 1.5rem 0;
+}
+
+p, address, li {
+  line-height: 1.5rem;
+  font-weight: 200;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+p, address {
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+ul {
+  margin-top: 0;
+  padding-left: 0;
+  list-style: none;
+  list-style-position: outside;
+}

@@ -1,0 +1,32 @@
+@mixin standard-button {
+  // background-color: #fff;
+
+  // box-shadow: 2px 2px 1px 0px $mid-grey;
+  // transition: background-color 300ms ease;
+  // background-color: rgba(38,37,37,0.15);
+  // border: 0px;
+
+  // &:hover {
+  //   background-color: rgba(38,37,37,0.5);
+  // }
+
+  background-color: #fff;
+
+  transition: background-color 300ms ease;
+  border: 1px solid $light-grey;
+
+  box-shadow: 1px 1px 0px 0px #ccc;
+
+  &:hover, &:active, &:focus {
+    background-color: rgba(38,37,37,0.05);
+  }
+}
+
+@mixin input-field {
+  transition: background-color 300ms ease;
+  border: 1px solid $light-grey;
+
+  &:hover, &:active, &:focus {
+    background-color: rgba(38,37,37,0.05);
+  }
+}

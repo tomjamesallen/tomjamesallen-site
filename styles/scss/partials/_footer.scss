@@ -1,0 +1,17 @@
+footer {
+  .inner {
+    @extend .max-width-wrapper;
+    @extend .content-padding;
+
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  color: #fff;
+
+  p {
+    margin-bottom: 0;
+    font-weight: 100;
+    font-size: 0.75rem;
+  }
+}

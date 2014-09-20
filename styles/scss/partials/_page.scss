@@ -1,0 +1,11 @@
+.content-wrapper {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+
+  color: $mid-grey;
+
+  p:last-child {
+    text-align: center;
+  }
+}

@@ -1,0 +1,35 @@
+.logo-wrapper {
+  @extend .max-width-wrapper;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: $gutters;
+  margin-left: $gutters;
+  overflow: hidden;
+  // padding: $gutters;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+  box-shadow: 2px 2px 1px 0px $mid-grey;
+  transition: background-color 300ms ease;
+  background-color: rgba(38,37,37,0.15);
+
+  &:hover {
+    background-color: rgba(38,37,37,0.5);
+  }
+
+  h1 {
+    font-size: 3rem;
+    display: block;
+    position: absolute;
+    right: 0.18rem;
+    bottom: 0.18rem;
+    margin-bottom: 0;
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: 4px;
+  }
+}

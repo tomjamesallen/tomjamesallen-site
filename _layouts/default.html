@@ -4,8 +4,46 @@
 <head>
 	<meta charset="UTF-8">
 	<title>tomjamesallen</title>
+  <link rel="stylesheet" href="styles/css/main.css">
+  <meta name="viewport" content="initial-scale=1.0,width=device-width" />
 </head>
 <body>
-	{{content}}
+  <div class="page-wrapper">
+    <header>
+      <div class="bg-img">
+        <img src="imgs/header.jpg" alt="">
+      </div>
+      <div class="logo-wrapper">
+        <a class="logo" href="/">
+          <h1><span class="t">t</span><span class="j">j</span><span class="a">a</span></h1>
+        </a>
+      </div>
+      <div class="max-width-wrapper">
+        <div class="portrait">
+          <!-- <img src="imgs/portrait.jpg" alt=""> -->
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <div class="max-width-wrapper content-padding">
+        <div class="page-content">
+          {{content}}
+        </div>
+        <div class="form">
+          <iframe class="form-iframe" src="say-hi" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="inner">
+        <p>
+          © 2014 Tom Allen | 
+          <a href="https://github.com/tomjamesallen">github</a> | 
+          <a href="https://twitter.com/_tomjamesallen">twitter</a> | 
+          <a href="http://flickr.com/tomjamesallen">flickr</a>
+        </p>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
