@@ -501,7 +501,10 @@ header {
     margin-bottom: 0;
     font-weight: 100;
     color: #fff;
-    letter-spacing: 4px; }
+    letter-spacing: 4px;
+    text-shadow: #262525 0.5px 0.5px, #151515 1px 1px; }
+  .logo span {
+    position: relative; }
 
 .content-wrapper {
   width: 100%;
