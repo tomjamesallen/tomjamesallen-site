@@ -11,14 +11,4 @@ header {
     width: 100%;
     min-width: 600px;
   }
-
-  .portrait {
-    position: absolute;
-    width: 20%;
-    bottom: $gutters;
-    right: $gutters;
-    border-radius: 50%;
-    overflow: hidden;
-    opacity: 0.85;
-  }
 }
