@@ -507,8 +507,6 @@ header {
   position: relative;
   background-color: #fff;
   color: #262525; }
-  .content-wrapper p:last-child {
-    text-align: center; }
 
 iframe.form-iframe {
   width: 100%;
